@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top:0;
+    cursor: pointer;
+}
+.navlist{
+    width: 50%;
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+
+}
+.navbar li{
+    list-style: none;
+    padding: 15px;
+
+}
+.navbar li a{
+    text-decoration: none;
+    color: white;
+}
+.navbar li a:hover{
+    text-decoration: none;
+    color: red;
+
+} 
+.logo{
+    width: 20% ;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 33%;
+    border: 2px solid white;
+    border-radius:100px ;
+}
+.rightnavbar{
+    text-align: right;
+    width: 50%;
+    padding: 0 23px;
+}
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 9px;
+}
+.background{
+    background: rgb(0, 0, 0, 0.7) url(../img/uchihaitachi.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.boxmain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 60%;
+    margin: auto;
+}
+.firstsection{
+    height: 100vh;
+}
+.firsthalf{
+    width: 70%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.secondhalf{
+    width: 30%;
+    display:flex;
+
+}
+.secondhalf img{
+    width: 100%;
+    padding: 2px;
+    border: 3px solid red;
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+}
+.buttons{
+    display: flex;
+    padding: 8px;
+    margin: 7px;
+    /* border: 2px solid red;
+    border-radius:10px;; */
+}
+.btn{
+    padding: 5px;
+    margin:7px;
+    background:none;
+    color:white;
+    border: 2px solid red;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.bigtxt{
+    font-size:50px;
+    color: darkgrey;
+}
+.smtxt{
+    font-size: 15px;
+}
+.btn-sm{
+    padding:3px 7px;
+    vertical-align: middle;
+}
